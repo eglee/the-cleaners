@@ -1,0 +1,36 @@
+/* ~~~~~~~~~ common ~~~~~~~~~~ */
+
+body{
+	background: #e6e6e6;
+	background-image: url('../images/bg.png');
+	background-repeat: repeat;
+	font: 15px Cabin, sans-serif;
+	color: #000;
+}
+
+a
+{
+	text-decoration:none;
+}
+h1 {
+	color: #000;
+	font:bold 30px Cabin, sans-serif;
+	padding:5px 0;
+}
+h2 {
+	color: #000;
+	font:bold 20px Cabin, sans-serif;
+	padding:5px 0;
+}
+
+#content ul, ol
+{
+	font:12px Verdana, Geneva, sans-serif;
+	padding:0 30px;
+}
+#content ul li, ol li
+{
+	font:12px Verdana, Geneva, sans-serif;
+	padding:3px;
+	color:#000;
+}

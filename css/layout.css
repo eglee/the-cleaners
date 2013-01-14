@@ -1,0 +1,485 @@
+
+/* ~~~~~~~~~ layout ~~~~~~~~~~ */
+
+#wrapper
+{
+	width: 900px;
+	height: 645px;
+	background: #4e91b4;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-image: url('../images/grad.png');
+	background-repeat: repeat-x;
+	background-position:bottom center; 
+	margin:20px auto;
+	/*padding:20px;*/
+	overflow:hidden;
+}
+
+/* ~~~~~~~~~ header ~~~~~~~~~~ */
+
+#header
+{
+	margin-top: 15px;
+}
+
+#header h1
+{
+	float: left;
+	padding-left:20px;
+}
+
+#navigation 
+{
+	/*border-bottom: 5px solid #666;*/
+	margin: 20px 0;
+	float: left;
+	
+}
+
+#navigation ul 
+{
+	overflow: hidden;
+	width: 100%;
+	list-style: none;
+	font-size: 1.6em;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#navigation li 
+{
+	float: left;
+	/*background: #999;*/
+	margin: 0 1em 0 0;
+	/*padding: 5px 30px;*/
+	display: block;
+	font:35px Cabin, sans-serif;
+	font-weight: 700;
+}
+
+#navigation li a
+{
+	color: #fff;
+	text-shadow:2px 2px black;
+	text-decoration: none;
+}
+
+#navigation li.current a
+ {
+	/*background: #666;*/	
+}
+#navigation li a:hover 
+{
+	color: #dc7e40;	
+}
+			
+/* ~~~~~~~~~ article ~~~~~~~~~~ */
+
+#main {
+	width: 100%;
+	overflow: hidden;
+}
+#content{
+	float: left;
+	width: 95%;
+	padding:20px;
+	font: 15px Cabin, sans-serif;
+	margin-bottom: 60px;
+	
+}
+
+#content h1 {
+	margin-top: -20px;
+}
+
+#content img
+{
+	margin-left:20px;
+	margin-bottom:5px;
+	float:right;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#content p
+{
+	font-family:Cablin, sans-serif;
+	font-size: 15px;
+	line-height:1.6em;
+	color:#000;
+	text-align:justify;
+
+}
+
+#content ul, ol
+{
+	font-family:Cablin, sans-serif;
+	font-size: 12px;
+	padding:0 30px;
+}
+
+#content ul li, ol li
+{
+	font-family:Cablin, sans-serif;
+	font-size: 12px;
+	padding:3px;
+	color:#000;
+}
+
+#calltoaction
+{
+	width: 15em;
+	height: 3em;
+	background: #f8b663;
+	margin: 20px;
+	border: 2px solid #db9843;
+	text-align: center;
+	font-size: 15px;
+	font-family: Cabin, sans-serif;
+}
+
+#calltoaction:hover {
+	background: #f9991f;
+}
+
+#calltoaction a 
+{	
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #000;
+	margin: 8px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+.shadow {
+  -moz-box-shadow: 5px 5px 5px #1f2021;
+  -webkit-box-shadow: 5px 5px 5px #1f2021;
+  box-shadow: 2px 2px 2px #1f2021;
+}
+
+.bluebox
+{
+	background: #B7D7E8;
+	padding: 20px;
+	margin-bottom: -65px;
+	height: 22em;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-image: url('../images/grad.png');
+	background-repeat: repeat-x;
+	background-position:bottom center; 
+}
+
+.calendarday
+{
+	width: 110px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	height:50px;
+	background:#fff;
+	float: left;
+}
+
+.daynumber
+{
+	text-align: left;
+	font-size: 9pt;
+}
+
+.scheduled
+{
+	background: #dd9a6e;
+	
+}
+
+#days
+{
+	margin-bottom:9px;
+	padding: 0;
+	color: white;
+	height: 1em;
+	width: 100%;
+}
+
+#days ul
+{
+	margin-left:0px;
+	margin-top: -17px;
+	padding:0;
+}
+
+#days ul li
+{
+	margin-left:42px;
+	padding:0;
+	display:inline;
+	color:#000;
+	font-family: Cabin, sans-serif;
+	font-weight: bold;
+	font-size: 13pt;
+}
+	
+/*~~~~~~~~~~~~~~bundle~~~~~~~~~~~~~*/
+
+.bundle
+{
+	padding: 10px;
+	background: #B7D7E8;
+	width: 15em;
+	height: 22em;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: -65px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-image: url('../images/grad.png');
+	background-repeat: repeat-x;
+	background-position:bottom center; 
+}
+
+.bundle img 
+{
+	float: left;
+	margin-right: 75px;
+}
+
+.bundle p
+{
+	float: left;
+}
+
+.bundlecta
+{
+	width: 3em;
+	height: 2em;
+	background: #f8b663;
+	margin-top: 250px;
+	margin-left: 150px;
+	border: 2px solid #db9843;
+	text-align: center;
+	font-size: 15pt;
+	font-family: Cabin, sans-serif;
+}
+
+.bundlecta:hover {
+	background: #f9991f;
+}
+
+.bundlecta a 
+{	
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #000;
+	margin: 7px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+/* ~~~~~~~~~ checkout ~~~~~~~~~~ */
+
+
+#carddetails
+{
+	float: right;
+	margin-top: -305px;
+	margin-right: -75px;
+}
+
+form#payment fieldset 
+{
+	border: none;
+	margin-bottom: 10px;
+}
+form#payment fieldset:last-of-type 
+{
+	margin-bottom: 0;
+}
+
+form#payment legend 
+{
+	font-weight: bold;
+
+}
+
+form#payment fieldset fieldset legend 
+{
+	color: #111111;
+	font-size: 13px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+
+form#payment ol li 
+{
+	line-height: 30px;
+	list-style: none;
+	padding: 0px 10px;
+	margin-bottom: 2px;
+}
+
+form#payment ol ol li 
+{
+	background: none;
+	border: none;
+	float: left;
+}
+
+form#payment label 
+{
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+
+textarea#street
+{
+	height: 20px;
+}
+
+
+form#payment fieldset fieldset label 
+{
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+form#payment label[for=visa] 
+{
+	background-image: url(../images/visa.gif);
+}
+
+form#payment label[for=amex]
+{
+	background-image: url(../images/amex.gif);
+}
+
+form#payment label[for=mastercard]
+{
+	background-image: url(../images/mastercard.gif);
+}
+
+form#payment fieldset fieldset label:hover {
+cursor: pointer;
+}
+
+form#payment input:not([type=radio]),
+form#payment textarea 
+{
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px Cabin, sans-serif;
+	outline: none;
+	padding: 5px;
+	width: 200px;
+}
+
+form#payment input:not([type=submit]):focus,
+form#payment textarea:focus 
+{
+	background: #eaeaea;
+}
+
+form#payment input[type=radio]
+{
+	float: left;
+	margin-right: 5px;
+}
+
+form#payment button:hover
+{
+	background: #1e2506;
+	cursor: pointer;
+}
+
+form#submit fieldset 
+{
+	border: none;
+	margin-bottom: 10px;
+}
+
+form#payment button
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:3;
+	margin-left: 870px;
+	margin-top: 480px;
+	width: 10em;
+	height: 2em;
+	background: #f8b663;
+	border: 2px solid #db9843;
+	text-align: center;
+	font-size: 15pt;
+	font-family: Cabin, sans-serif;
+}
+
+form#payment button:hover
+{
+	background: #f9991f;
+}
+
+form#payment button a 
+{	
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #000;
+	margin: 7px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+/* ~~~~~~~~~ footer ~~~~~~~~~~ */
+			
+#footer
+{
+	font:11px Verdana, Geneva, sans-serif;
+	color:#000;
+	margin: 20px;
+}
+
+
+#footer ul
+{
+	margin-left:0px;
+	padding:0;
+}
+#footer ul li
+{
+	margin-left:0;
+	padding:0;
+	display:inline;
+	font:11px Verdana, Geneva, sans-serif;
+	color:#000;
+}
+#footer ul li a
+{
+	text-decoration:none;
+	font:11px Verdana, Geneva, sans-serif;
+	color:#000;
+	padding:2px;
+}
+#footer ul li a:hover
+{
+	text-decoration:none;
+	font:11px Verdana, Geneva, sans-serif;
+	color:#DBD9DA;
+	padding:2px;
+}
